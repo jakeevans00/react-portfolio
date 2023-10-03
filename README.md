@@ -2,12 +2,13 @@
 
 ---
 
+![Portfolio image](/src/assets/img/portfolio.png)
 Bootstrapped with [create react app](https://facebook.github.io/create-react-app/docs/getting-started)
 
-![Product homepage image](/src/assets/img/hero-page.png)
+`npm install` then `npm start` to inspect project locally
 
-### `npm start` to inspect project locally
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks to [webdecoded](https://www.youtube.com/@webdecoded) for the tutorial!
 
 ### Responsive, modern web application
+
+This is my working portfolio, where I showcase projects completed for school, work, or personal interest. I am currently working as a full-stack dev for the Rollins Center for Entrepreneurship & Technology
