@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import logo from "../assets/img/icons8-cat-64-2.png";
 import linkedIcon from "../assets/img/linkedin-fill.svg";
 import instaIcon from "../assets/img/instagram-line.svg";
-import XIcon from "../assets/img/twitter-x-fill.svg";
+import GIcon from "../assets/img/github-fill.svg";
 //import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -69,14 +69,14 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://google.com">
+              <a href="https://www.instagram.com/jakeevans_1/">
                 <img src={instaIcon} alt="" />
               </a>
-              <a href="https://google.com">
+              <a href="https://www.linkedin.com/in/jakeevans-byu">
                 <img src={linkedIcon} alt="" />
               </a>
-              <a href="https://google.com">
-                <img src={XIcon} alt="" />
+              <a href="https://github.com/jakeevans00">
+                <img src={GIcon} alt="" />
               </a>
             </div>
 
