@@ -56,7 +56,9 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">show me the code</span>
+            <span className="tagline">
+              show me the <span className="code-word">code</span>
+            </span>
             <h1>
               {`Hi, I'm Jake!`}
               <br />
