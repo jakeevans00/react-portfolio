@@ -42,6 +42,9 @@ export const Skills = () => {
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
+                removeArrowOnDeviceType={["mobile"]}
+                keyBoardControl={true}
+                autoPlay={true}
               >
                 <div className="item">
                   <img src={skill3} alt="machine learning" />

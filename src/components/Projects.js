@@ -92,7 +92,13 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Games, web apps, creative projects, & more...</p>
+            <p>
+              Games, web apps, creative projects, & more! Explore on my{" "}
+              <a href="https://github.com/jakeevans00" className="text-light">
+                Github
+              </a>
+            </p>
+
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"
@@ -100,7 +106,7 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">See All Projects</Nav.Link>
+                  <Nav.Link eventKey="first">All</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Web Dev</Nav.Link>

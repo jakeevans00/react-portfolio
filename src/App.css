@@ -237,6 +237,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   background-color: #fff;
   height: 2px;
 }
+
+@media only screen and (max-width: 800px) {
+  nav.navbar {
+    background-color: #022b3a !important;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  .navbar-collapse {
+    background-color: unset;
+  }
+}
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
   background-color: #fff;
@@ -258,6 +271,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    padding: 110px 0 100px 0;
+  }
 }
 .banner .tagline {
   font-weight: 700;
@@ -387,6 +406,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+  .project .nav.nav-pills {
+    width: 90%;
+  }
+}
+
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
@@ -435,9 +461,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 24px;
+  filter: saturate(100%);
 }
 .proj-imgbx::before {
   content: "";
@@ -679,4 +706,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+/* React Carousel */
+.react-multiple-carousel__arrow--left {
+  left: 0px;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0px;
 }

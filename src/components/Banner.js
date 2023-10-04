@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Software Engineer", "System Designer"];
+  const toRotate = ["Web Dev", "Designer", "Architect", "Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,9 +56,10 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">let's get cookin'</span>
+            <span className="tagline">show me the code</span>
             <h1>
-              {`Hi, I'm Jake!`}{" "}
+              {`Hi, I'm Jake!`}
+              <br />
               <span
                 className="txt-rotate"
                 dataPeriod="1000"
