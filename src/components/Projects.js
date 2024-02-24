@@ -6,13 +6,21 @@ import projImg3 from "../assets/img/Egypt.png";
 import projImg4 from "../assets/img/byu.png";
 import projImg5 from "../assets/img/alien.png";
 import projImg6 from "../assets/img/coming.png";
+import projImg7 from "../assets/img/Soundbox.png";
 
 export const Projects = () => {
   const projects_all = [
     {
+      title: "Soundbox",
+      description: "Synthesizer built with React and Web Audio API",
+      imgUrl: projImg7,
+      imgLink: "https://soundbox.jvk.app",
+    },
+    {
       title: "Wordle Game",
       description: "Python app built with tkinter module. View in github!",
       imgUrl: projImg1,
+      imgLink: "https://github.com/jakeevans00/worldle-project",
     },
     {
       title: "Chalk Up",
@@ -68,9 +76,16 @@ export const Projects = () => {
 
   const projects_personal = [
     {
+      title: "Soundbox",
+      description: "Synthesizer built with React and Web Audio API",
+      imgUrl: projImg7,
+      imgLink: "https://soundbox.jvk.app",
+    },
+    {
       title: "Wordle Game",
       description: "Python app built with tkinter module. View in github!",
       imgUrl: projImg1,
+      imgLink: "https://github.com/jakeevans00/worldle-project",
     },
     {
       title: "Chalk Up",
