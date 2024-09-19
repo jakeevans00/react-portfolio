@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Dev", "Designer", "Architect", "Engineer"];
+  const toRotate = ["Web Dev", "Designer", "Software", "Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">
-              show me the <span className="code-word">code</span>
+              cout &lt;&lt; <span className="code-word">portolio;</span>
             </span>
             <h1>
               {`Hi, I'm Jake!`}
@@ -72,9 +72,8 @@ export const Banner = () => {
             </h1>
 
             <p>
-              Master's student at Brigham Young University. Information Systems
-              Management. React. Software Engineering. System Design. Mountain
-              climber.
+              Software Development student at Brigham Young University. React.
+              System Design.
             </p>
             <button onClick={() => console.log("connect")}>
               Get in Touch <ArrowRightCircle size={25}></ArrowRightCircle>
